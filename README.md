@@ -5,3 +5,4 @@ No app o usuário poderá fazer as seguintes ações:
 - Ao pressionar enter (ou um botão), o usuário pode enviar o item de tarefa e pode ver que está sendo adicionado a uma lista de tarefas;
 - O usuário pode marcar uma tarefa como completed;
 - O usuário pode remover um item de tarefa pressionando um botão (ou no próprio item de tarefa).
+![logo](https://github.com/ioritanaka/to-do-list/assets/51345952/b21847fe-e8ce-41c6-b5a0-b1db590adcdb)
