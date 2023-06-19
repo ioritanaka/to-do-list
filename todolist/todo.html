@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100;1,300;1,500&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/logo.png" >  
+                </a> 
+            </div>
+                   
+            <div class="search-bar">
+                <input type="text" id="search-box" placeholder="   Adicione uma tarefa" maxLength="40">
+                <button onclick="addTask()">+</button>    
+                <br>
+                <hr>          
+            </div>
+
+            <div class="separador"> 
+                <br>
+                <hr>      
+                <br>    
+            </div>
+
+            <ul id="lista">
+                        
+            </ul>
+            
+            <!-- <div class="filter1">
+                <p id="filtro1">Mostrar somente tarefas finalizadas</p>   
+                <input id="check1" type="checkbox" >
+            </div>
+
+            <div class="filter2">
+                <p id="filtro2">Mostrar somente tarefas não finalizadas</p>
+                <input type="checkbox" id="check2">
+            </div>
+             -->
+                
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
